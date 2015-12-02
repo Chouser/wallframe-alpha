@@ -5,8 +5,7 @@
 
 ;; count, width, height
 (def counted-frames
-  [
-   [1 34 44]
+  [[1 34 44]
    [1 24.5 37]
    [1 10 10]
    [1 28.5 33.5]

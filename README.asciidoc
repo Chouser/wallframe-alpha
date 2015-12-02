@@ -1,0 +1,49 @@
+= WallFrame
+
+I apologize for this code. It is not good code. Perhaps I shouldn't be
+sharing it at all.
+
+On the other hand, it helped me solve a real world problem, and I
+learned some things along the way. Maybe if you want to read it, and
+it doesn't cause you to do anything that you would also have to
+apologize for, well then maybe sharing it is helpful.
+
+== The problem
+
+We want to cover a dining room wall with a bunch of picture frames
+that were already obtained at yard sales, etc. The frames must not
+overlap, should have some gaps between them (but not too much or too
+little) and the resulting layout should be esthetically pleasing. Yes,
+that's all rather vague. Except for the not overlapping thing, that's
+pretty precise, but all the rest ... yeah, vague.
+
+== Some "solutions"
+
+The `chouser.wallframe` namespace is the big pile of code that
+contains practially no comments, poor variable names, naive
+algorithms, etc. There are a functions named `go1` through `go4` that
+take no arguments and are meant to be run at a REPL. They apply
+various algorithms and approaches, including a kind of force-directed
+graph as well as a sort of genetic algorithm approach.
+
+The results are generally written to `wall.html`
+
+== Successful solution
+
+After spending the evenings of about one week on this, we were still
+unhappy with the resulting layouts and so tried a different approach.
+We used a few of the functions to produce an SVG file, used inkscape
+to partition it into a few letter-sized pages, and printed them. Then
+we cut out the frame rectangles and manually arranged them on the
+page. Within a couple hours we had generated several satisfactory
+layouts, each of them better than any of the automated layouts up to
+that point.
+
+== Future work
+
+Our faith in computers is unshaken, and I'm confident that with
+sufficient effort an automated solution could produce good layouts
+faster than we can manually. We believe the genetic approach has the
+most promise, but would require significant reworking. However, having
+solved our actual problem, we don't have any current plans to improve
+the code.
