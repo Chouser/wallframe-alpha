@@ -6,14 +6,14 @@ sharing it at all.
 On the other hand, it helped me solve a real world problem, and I
 learned some things along the way. Maybe if you want to read it, and
 it doesn't cause you to do anything that you would also have to
-apologize for, well then maybe sharing it is helpful.
+apologize for, well, then maybe sharing it is helpful.
 
 == The problem
 
 We want to cover a dining room wall with a bunch of picture frames
 that were already obtained at yard sales, etc. The frames must not
 overlap, should have some gaps between them (but not too much or too
-little) and the resulting layout should be esthetically pleasing. Yes,
+little) and the resulting layout should be aesthetically pleasing. Yes,
 that's all rather vague. Except for the not overlapping thing, that's
 pretty precise, but all the rest ... yeah, vague.
 
